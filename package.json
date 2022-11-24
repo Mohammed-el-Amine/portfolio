@@ -9,7 +9,7 @@
   },
   "engines": {
     "npm": "8.19.2",
-    "node": "18.12.1"
+    "node": "16.18.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,12 +19,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
   
 }
