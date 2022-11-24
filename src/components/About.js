@@ -1,47 +1,56 @@
 import React, { Component } from 'react';
 export default class About extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
-    return (
-      <section id="about">
-         <div className="row">
+   render() {
+      let resumeData = this.props.resumeData;
+      return (
+         <section id="about">
+            <div className="row">
 
-            <div className="three columns">
+               <div className="three columns">
 
-               <img className="profile-pic"  src="images/mohammed-el-amine.djellal@epitech.eu.jpg" alt="me-pic profile" />
+                  <img className="profile-pic" src="images/mohammed-el-amine.djellal@epitech.eu.jpg" alt="me-pic profile" />
 
-            </div>
+               </div>
 
-            <div className="nine columns main-col">
+               <div className="nine columns main-col">
 
-               <h2>À propos de moi</h2>
-               <p>
-               {
-                 resumeData.aboutme
-               }
-               </p>
+                  <h2>À propos de moi</h2>
+                  <p>
+                     {
+                        resumeData.aboutme
+                     }
+                  </p>
 
-               <div className="row">
+                  <div className="row">
 
-                  <div className="columns contact-details">
+                     <div className="columns contact-details">
 
-                  <h2>Me contacter</h2>
-                  <p className="address">
-       						<span>{resumeData.name}</span>
-                     <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
-                    <span>{resumeData.website}</span><br/>
-                    <span>{resumeData.website2}</span><br/>
-                    <span>{resumeData.website3}</span><br/>
-       					   </p>
+                        <h2>Me contacter</h2>
+                        <p className="address">
+                           <span>{resumeData.name}</span>
+                           <br></br>
+                           <span>
+                              {resumeData.address}
+                           </span>
+                           <br></br>
+                           <span>{resumeData.website}</span>
+                           <br /><br />
+                           <span>{resumeData.website2}</span>
+                           <br /><br />
+                           <span>{resumeData.website3}</span>
+                           <br /><br />
+                           <a href='images/mohammed-el-amine_djellal.jpg' download>
+                              <button>
+                                 Télécharger mon C.V ?
+                              </button>
+                           </a>
+
+                        </p>
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
-      </section>
-    );
-  }
+         </section>
+      );
+   }
 }
