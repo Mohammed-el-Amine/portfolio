@@ -1,5 +1,5 @@
 let resumeData = {
-    "imagebaseurl":"",
+    "imagebaseurl":"mohammed-el-amine.djellal@epitech.eu.jpg",
     "name": "DJELLAL Mohammed-El-Amine",
     "role": "Dévelloper Fullstack (actuellement étudiant)",
     "linkedinId":"https://linkedin.com/in/amine-djellal-680682251",
@@ -17,7 +17,7 @@ let resumeData = {
           "className":"fa fa-github"
         },
       ],
-    "aboutme":"Je suis actuellement en 1ère annéee d'étude en webdevelloppement, etc... ",
+    "aboutme":"Je suis actuellement en 1ère annéee d'étude en web develloppement, anciennement déménageur d'entreprise .",
     "address":"France, île-de-france",
     "website":"https://github.com/Mohammed-el-Amine/",
     "website2":"https://linkedin.com/in/amine-djellal-680682251",
@@ -73,12 +73,12 @@ let resumeData = {
       {
         "name":"My-IRC",
         "description":"chat avec plusieur channels et plusieur utilisateurs",
-        "imgurl":"images/portfolio/my_irc.jpg"
+        "imgurl":"images/my_irc.jpg"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"../public/images/portfolio/project.jpg"
+        "imgurl":"images/portfolio/project.jpg"
       },
       {
         "name":"project3",
