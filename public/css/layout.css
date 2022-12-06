@@ -348,6 +348,16 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
+.php {
+   width: 50%;
+   -moz-animation: php 2s ease;
+   -webkit-animation: php 2s ease;
+}
+.reactjs {
+   width: 50%;
+   -moz-animation: reactjs 2s ease;
+   -webkit-animation: reactjs 2s ease;
+}
 .jquery {
   	width: 50%;
   	-moz-animation: jquery 2s ease;
@@ -374,6 +384,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
+@-moz-keyframes php {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ @-moz-keyframes reactjs {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
@@ -399,6 +417,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
+@-webkit-keyframes php {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes reactjs {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }

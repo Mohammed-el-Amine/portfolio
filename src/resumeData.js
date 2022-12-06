@@ -73,32 +73,23 @@ let resumeData = {
       {
         "name":"My-IRC",
         "description":"chat avec plusieur channels et plusieur utilisateurs",
-        "imgurl":"my-irc.jpg"
-      // },
-      // {
-      //   "name":"project2",
-      //   "description":"mobileapp",
-      //   "imgurl":"images/portfolio/project.jpg"
-      // },
-      // {
-      //   "name":"project3",
-      //   "description":"mobileapp",  
-      //   "imgurl":"images/portfolio/project2.png"
-      // },
-      // {
-      //   "name":"project4",
-      //   "description":"mobileapp",
-      //   "imgurl":"images/portfolio/phone.jpg"
-      }
+        "imgurl":"my-irc.jpg",
+      },
+      {
+        "name":"My snapchat",
+        "description":"mobileapp type snapchat ",
+        "imgurl":"images/portfolio/my-snap.jpg",
+      },
+
     ],
     "testimonials":[
       {
-        "description":"Partenaire de projet, très très fort le poto.Je recommande fort fort",
-        "name":"Mestron Marius"
+        "description":"Partenaire de projet, très sérieux, motiver et curieux. Plusieurs projets réaliser avec sa collaboration, j'en suis très satisfait",
+        "name":"Mestron Marius, étudiant à la webacadémie."
       },
       {
-        "description":"Le meilleur partenaire de projet de ma vie, woulah le Sang du pied bien",
-        "name":"Nathan Gerard"
+        "description":"Travailleur acharné, la plus parts des projets on été réaliser en partenariat avec M.Djellal ",
+        "name":"Nathan Gerard, étudiant à la webacadémie."
       }
     ]
   }
