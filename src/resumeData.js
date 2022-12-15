@@ -72,13 +72,18 @@ let resumeData = {
     "portfolio":[
       {
         "name":"My-IRC",
-        "description":"chat avec plusieur channels et plusieur utilisateurs",
-        "imgurl":"my-irc.jpg",
+        "description":"Site de chat avec plusieur channels et plusieur utilisateurs . Socket.io(JS) est la techno que j'ai utiliser pour réaliser ce projet.",
+        "imgurl":"https://github.com/Mohammed-el-Amine/my_irc/blob/Amine/my-irc.jpg?raw=true",
       },
       {
         "name":"My snapchat",
-        "description":"mobileapp type snapchat ",
-        "imgurl":"images/portfolio/my-snap.jpg",
+        "description":"Application mobile de type : chat/multimédia. React est la techno que j'ai utiliser pour réaliser ce projet ",
+        "imgurl":"https://github.com/Mohammed-el-Amine/my_snapchat/blob/amine/Snap.png?raw=true",
+      },
+      {
+        "name":"ALG BSQ",
+        "description":"algo servant à retrouver le premier plus grand carré d'un schéma donner en paramètre. Le language php à été utiliser pour réalicer ce projet ",
+        "imgurl":"https://github.com/Mohammed-el-Amine/ALG_BSQ/blob/Amine/bsq.png?raw=true",
       },
 
     ],
