@@ -39,7 +39,7 @@ export default class About extends Component {
                            <br /><br />
                            <span>{resumeData.website3}</span>
                            <br /><br />
-                           <a href='images/mohammed-el-amine_djellal.jpg' download>
+                           <a href='images/Djellal mohammed el amine.pdf' download>
                               <button>
                                  Télécharger mon C.V ?
                               </button>
